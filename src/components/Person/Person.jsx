@@ -10,8 +10,6 @@ export const Person = ({ person }) => {
 
       {age ? <p className="Person__age">{`I am ${age}`}</p> : ''}
 
-      {sex ? <p className="Person__sex">{sex}</p> : ''}
-
       {isMarried ? (
         <p className="Person__partner">{`${partner} is my ${partnersName}`}</p>
       ) : (
